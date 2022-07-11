@@ -1,0 +1,23 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: debhello
+Upstream-Contact: KUNBUS GmbH <support@kunbus.com>
+Source: https://github.com/iluminat23/debhello
+
+Files:     CMakeLists.txt
+           debhello_config.h.in
+           main.c
+Copyright: KUNBUS GmbH 2022
+License:   GPL-2+
+
+Files:     debian/*
+Copyright: KUNBUS GmbH 2022
+License:   GPL-2+
+
+License: GPL-2+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; version 2 dated June, 1991, or (at
+ your option) any later version.
+ .
+ On Debian systems, the complete text of version 2 of the GNU General
+ Public License can be found in '/usr/share/common-licenses/GPL-2'.

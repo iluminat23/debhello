@@ -1,0 +1,15 @@
+Source: debhello
+Section: utils
+Priority: optional
+Maintainer: Philipp Rosenberger <p.rosenberger@kunbus.com>
+Build-Depends: cmake, debhelper-compat (= 12)
+Standards-Version: 4.5.0
+Homepage: https://github.com/iluminat23/debhello
+
+Package: debhello
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: example debian package
+ This Debian package is used as example to show how the packaging process
+ of Debian works
